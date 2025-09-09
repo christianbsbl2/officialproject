@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.expo/
+.vscode/
+*.log
+coverage/
+.DS_Store
+*.tmp
+*.cache
