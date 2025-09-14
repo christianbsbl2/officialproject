@@ -4,17 +4,13 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "dev": "expo start",
+    "dev": "node server.js",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint"
   },
-  "scripts": {
-  "dev": "node server.js"
-}
-
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
     "@react-navigation/bottom-tabs": "^7.3.10",
